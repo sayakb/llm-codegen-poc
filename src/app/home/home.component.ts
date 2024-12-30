@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SplButtonComponent } from '../spl-button/spl-button.component';
+import config from './home.config';
 
 @Component({
   selector: 'app-home',
@@ -9,4 +10,11 @@ import { SplButtonComponent } from '../spl-button/spl-button.component';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent { }
+export class HomeComponent {
+  environment: string;
+
+  constructor() {
+    this.environment = config.env;
+    console.debug('Environment:', this.environment);
+  }
+}

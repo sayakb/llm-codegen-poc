@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import config from './spl-button.config';
 
 @Component({
   selector: 'spl-button',
@@ -7,4 +8,10 @@ import { Component, Input } from '@angular/core';
 })
 export class SplButtonComponent {
   @Input() buttonText: string = 'Default Text';
+  environment: string;
+
+  constructor() {
+    this.environment = config.env;
+    console.debug('Environment:', this.environment);
+  }
 }
