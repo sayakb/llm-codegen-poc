@@ -1,0 +1,9 @@
+Each component must have 5 files:
+1. <name>.component.ts - containing the primary component code,
+2. <name>.config.ts - containing the config data,
+3. <name>.component.html - containing the HTML markup,
+4. <name>.component.css - stylesheets,
+5. <name>.component.spec.ts - unit tests.
+
+Analyze the files within the subfolders: hello-world, home, spl-button
+And use them as examples on how each file is referenced from another.
