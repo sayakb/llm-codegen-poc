@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-gen-comp-def',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './gen-comp-def.component.html',
-  styleUrl: './gen-comp-def.component.css'
+  styleUrls: ['./gen-comp-def.component.css']
 })
 export class GenCompDefComponent {
 

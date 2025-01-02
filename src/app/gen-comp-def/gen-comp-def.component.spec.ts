@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { GenCompDefComponent } from './gen-comp-def.component';
 
 describe('GenCompDefComponent', () => {
@@ -8,7 +7,7 @@ describe('GenCompDefComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [GenCompDefComponent]
+      declarations: [GenCompDefComponent]
     })
     .compileComponents();
 
