@@ -4,7 +4,7 @@ This project is a Proof of Concept (PoC) to test how to generate code using Lang
 
 ## Jupyter Notebook
 
-This [notebook](https://github.com/sayakb/llm-codegen-poc/blob/main/jupyter-nb/codegen.ipynb) provides a step by step guide for generating Angular components.
+This [notebook](./jupyter-nb/codegen.ipynb) provides a step by step guide for generating Angular components.
 
 ## Demo Video
 
