@@ -8,7 +8,7 @@ This [notebook](https://github.com/sayakb/llm-codegen-poc/blob/main/jupyter-nb/c
 
 ## Demo Video
 
-[![Demo Video](https://img.youtube.com/vi/6jOZtFjPMi4/0.jpg)](https://www.youtube.com/watch?v=6jOZtFjPMi4)
+[![Demo Video](https://github.com/user-attachments/assets/92495dd9-1df6-4fb6-ad85-602492afe81f)](https://www.youtube.com/watch?v=6jOZtFjPMi4)
 
 ## Angular App
 
