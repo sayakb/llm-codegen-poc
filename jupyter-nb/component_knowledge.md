@@ -8,7 +8,7 @@ Each component must have 5 files (no more, no less):
 5. <name>.component.spec.ts - unit tests.
 
 Non-negotiable requirements:
-- All components must import CommonModule and FormsModule.
+- All components must import CommonModule.
 - Bootstrap is globally present so no need to import any Bootstrap related module or component.
 - Analyze the files that match the pattern `../src/app/**` and use them as examples on how the components should look, what to import, how they reference other components, etc.
 - Do not skip generating any of the above 5 files.
